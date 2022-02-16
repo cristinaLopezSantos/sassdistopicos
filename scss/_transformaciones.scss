@@ -1,0 +1,14 @@
+a {
+    &:hover {
+        transform: translate(3px, -5px);
+    }
+    img {
+        &:hover {
+            transform: scale(1.1);
+        } 
+        &:active {
+            opacity: 0.5;
+        } 
+    }
+
+}

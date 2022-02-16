@@ -1,0 +1,44 @@
+/*******************
+     Estructura
+ ******************/
+@import "_variables";
+
+//MAIN
+#artPrincipal {
+    img {
+      width: 100%;
+      margin: 1rem 0px;
+    }
+}
+//TITULOS
+h1 {
+  font-family: $titulos;
+}
+h2 {
+  margin: 2rem 0px 1rem;
+}
+
+//LISTADOS
+ul {
+  margin: 0px;
+  padding: 0px;
+  li {
+    list-style: none;
+  }
+}
+
+//SECCIÓN AUTORES
+#autoresDestacados {
+  display: flex;
+  article{
+    margin: 0px 0.5rem;
+      img{
+        border-radius: 100%;
+      }
+    
+    h3 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+}
